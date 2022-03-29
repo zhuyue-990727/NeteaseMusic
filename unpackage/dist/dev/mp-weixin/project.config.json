@@ -1,0 +1,51 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "checkSiteMap": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx1590667eb2536ff7",
+  "projectname": "NeteaseMusic",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "list",
+          "query": "listId=19723756",
+          "id": 0,
+          "pathName": "pages/list/list"
+        },
+        {
+          "name": "detail",
+          "query": "songId=1920622021",
+          "id": 1,
+          "pathName": "pages/detail/detail"
+        },
+        {
+          "name": "search",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/search/search"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<!--
+此文件为开发者工具生成，生成时间: 2022/3/29 上午11:20:44
+使用方法：
+在 D:\uni-app\NeteaseMusic\unpackage\dist\dev\mp-weixin\pages\index\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\uni-app\NeteaseMusic\unpackage\dist\dev\mp-weixin\pages\index\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="index data-v-57280228">
+      <view is="components/musichead/musichead" class="data-v-57280228">
+        <view class="music-head musichead--music-head data-v-e0b6e5e0 musichead--data-v-e0b6e5e0 sk-transparent sk-text-40-0000-424 sk-text" style="background-position-x: 50%;">网易云音乐</view>
+      </view>
+      <view class="container data-v-57280228">
+        <scroll-view class="data-v-57280228" scroll-y="true">
+          <view class="index-search data-v-57280228" data-event-opts="tap,handleToSearch,$event">
+            <text class="iconfont icon-sousuo data-v-57280228 sk-pseudo sk-pseudo-circle"></text>
+            <view class="data-v-57280228 sk-image" placeholder="搜索歌曲" type="text" value="true"></view>
+          </view>
+          <view class="index-list data-v-57280228">
+            <view class="index-list-item data-v-57280228" data-event-opts="tap,handleTapToList,$0,topList,,0,listId">
+              <view class="index-list-img data-v-57280228">
+                <image mode="true" class="data-v-57280228 sk-image"></image>
+                <text class="data-v-57280228 sk-transparent sk-text-14-2857-782 sk-text">刚刚更新</text>
+              </view>
+              <view class="index-list-text data-v-57280228">
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-851 sk-text">1.飞花 - 李克勤</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-299 sk-text">2.AF1(prod.RTYRACE) - thomeboydontkill/RTYRACE</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-433 sk-text">3.我说的不是你 - 杜宣达</view>
+              </view>
+            </view>
+            <view class="index-list-item data-v-57280228" data-event-opts="tap,handleTapToList,$0,topList,,1,listId">
+              <view class="index-list-img data-v-57280228">
+                <image mode="true" class="data-v-57280228 sk-image"></image>
+                <text class="data-v-57280228 sk-transparent sk-text-14-2857-329 sk-text">刚刚更新</text>
+              </view>
+              <view class="index-list-text data-v-57280228">
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-517 sk-text">1.爱丫爱丫 - 许66</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-48 sk-text">2.Memories - h3R3</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-613 sk-text">3.笑红尘 - G2er</view>
+              </view>
+            </view>
+            <view class="index-list-item data-v-57280228" data-event-opts="tap,handleTapToList,$0,topList,,2,listId">
+              <view class="index-list-img data-v-57280228">
+                <image mode="true" class="data-v-57280228 sk-image"></image>
+                <text class="data-v-57280228 sk-transparent sk-text-14-2857-981 sk-text">每周四更新</text>
+              </view>
+              <view class="index-list-text data-v-57280228">
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-144 sk-text">1.你不是我，我不是我 - 余佳运</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-888 sk-text">2.晚安，你好 - 裘德</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-139 sk-text">3.今晚约会吧 - SORROW</view>
+              </view>
+            </view>
+            <view class="index-list-item data-v-57280228" data-event-opts="tap,handleTapToList,$0,topList,,3,listId">
+              <view class="index-list-img data-v-57280228">
+                <image mode="true" class="data-v-57280228 sk-image"></image>
+                <text class="data-v-57280228 sk-transparent sk-text-14-2857-904 sk-text">更新13首</text>
+              </view>
+              <view class="index-list-text data-v-57280228">
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-211 sk-text">1.哪里都是你 - 队长</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-110 sk-text">2.孤勇者 - 陈奕迅</view>
+                <view class="data-v-57280228 sk-transparent sk-text-32-1429-265 sk-text">3.爱丫爱丫 - 许66</view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</template>
